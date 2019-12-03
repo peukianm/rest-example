@@ -12,7 +12,7 @@ public class RestService {
 	public int getWins() {
 		return Score.WINS;
 	}
-  ms
+  
 	@GET
 	@Path("/score/losses")
 	@Produces("text/plain")
